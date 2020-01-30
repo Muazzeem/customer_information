@@ -1,0 +1,50 @@
+<html>
+<title>
+
+</title>
+
+<head>
+    <link rel="stylesheet" href="css_file/table.css">
+    <link rel="stylesheet" href="css_file/style.css">
+</head>
+
+<body>
+    <center><h1><i>Database Table</i></h1></center>
+
+    <div id="customer_table">
+    </div>
+
+    <script src="nunjucks.js"></script>
+    <script src="customer_information.js"></script>
+    <script>
+        getData('https://lojs40u4ud.execute-api.ap-southeast-1.amazonaws.com/dev/customer-information').then((response) => {
+
+            nunjucks.configure({ autoescape: true });
+
+            x = nunjucks.render('information.html', { items: response });
+
+            var element = document.getElementById("customer_table");
+            element.innerHTML = (x);
+            console.log(response)
+        });
+
+
+        function myFunction(id) {
+            var resource = 'https://lojs40u4ud.execute-api.ap-southeast-1.amazonaws.com/dev/customer-information/' + id;
+            deleteData(resource)
+                .then((response) => {
+                    console.log(response)
+                    alert("Delete Customer Information");
+                    window.location.reload();
+                });
+        }
+
+
+
+    </script>
+    <br>
+        <center>
+            <a href="data_input_side.html" class="link-btn">Back</a>
+        </center>
+</body>
+</html>

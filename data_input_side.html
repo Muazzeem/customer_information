@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>contact from</title>
+    <link rel="stylesheet" href="css_file/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h1><i>Contact Us</i></h1>
+        </center>
+        <form id="from">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Your name e-mail..">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" value="+880">
+
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit" id="submit">
+        </form>
+        <center>
+            <a href="database_table.html" class="link-btn">Go to Database</a>
+        </center>
+    </div>
+</body>
+
+<script src="customer_information.js"></script>
+<script>
+    document.getElementById("submit").addEventListener("click", function (event) {
+        event.preventDefault()
+        var name = document.getElementById('name').value
+
+        var email = document.getElementById('email').value
+        var phone = document.getElementById('phone').value
+        var comment = document.getElementById('comment').value
+        var data = {
+            name: name,
+            email: email,
+            phone: phone,
+            comment: comment
+        }
+        console.log(data)
+        postData('https://lojs40u4ud.execute-api.ap-southeast-1.amazonaws.com/dev/customer-information', data)
+            .then((response) => {
+                document.getElementById('name').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('phone').value = '';
+                document.getElementById('comment').value = '';
+                myFunction();
+                console.log(response); // JSON data parsed by `response.json()` call
+            });
+
+    });
+</script>
+
+</html>

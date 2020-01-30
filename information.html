@@ -1,0 +1,20 @@
+
+
+<table>
+    <tr>
+        <th>email</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>comment</th>
+        <th>Delete</th>
+    </tr>
+    {% for item in items %}
+    <tr>
+        <td>{{item.email}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.phone}}</td>
+        <td>{{item.comment}}</td>
+        <td><button onclick="myFunction(this.id)" id="{{item.email}}">Delete</button></td>
+    </tr>
+    {% endfor %}
+</table>

@@ -1,0 +1,57 @@
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+a.link-btn {
+            color: #fff;
+            background: #337ab7;
+            display:inline-block;
+            border: 1px solid #2e6da4;
+            font: bold 14px Arial, sans-serif;
+            text-decoration: none;
+            border-radius: 2px;
+            padding: 6px 20px;
+    }
+    a.link-btn:hover {
+        background-color: #245582;
+        border-color: #1a3e5b;
+    }
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 700px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 10%;
+}
+
+.container1 {
+  padding: 10%;
+}
