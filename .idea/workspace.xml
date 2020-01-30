@@ -68,14 +68,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="customer_information" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="0" key="CommitChangelistDialog2" timestamp="1580360081048">
+    <state x="223" y="0" key="CommitChangelistDialog2" timestamp="1580360310593">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="223" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1580360081048" />
-    <state x="133" y="16" key="Vcs.Push.Dialog.v2" timestamp="1580360093961">
+    <state x="223" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1580360310593" />
+    <state x="122" y="57" key="DiffContextDialog" timestamp="1580360302421">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="133" y="16" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580360093961" />
+    <state x="122" y="57" key="DiffContextDialog/0.0.1280.689@0.0.1280.689" timestamp="1580360302421" />
+    <state x="133" y="16" key="Vcs.Push.Dialog.v2" timestamp="1580360319254">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="133" y="16" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580360319254" />
     <state x="271" y="132" key="com.intellij.ide.util.TipDialog" timestamp="1580359967645">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
