@@ -1,13 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3d98598-e20f-458e-ab15-79997c00a9b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1X6I97GhPI7aezl8ENkhcKu3Gmr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3d98598-e20f-458e-ab15-79997c00a9b1" name="Default Changelist" comment="" />
+      <created>1580359962620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580359962620</updated>
+    </task>
+    <task id="LOCAL-00001" summary="customer_information">
+      <created>1580360037130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580360037130</updated>
+    </task>
+    <task id="LOCAL-00002" summary="customer_information">
+      <created>1580360082126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580360082126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="customer_information" />
+    <option name="LAST_COMMIT_MESSAGE" value="customer_information" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="0" key="CommitChangelistDialog2" timestamp="1580360081048">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="223" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1580360081048" />
+    <state x="133" y="16" key="Vcs.Push.Dialog.v2" timestamp="1580360093961">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="133" y="16" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580360093961" />
     <state x="271" y="132" key="com.intellij.ide.util.TipDialog" timestamp="1580359967645">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
